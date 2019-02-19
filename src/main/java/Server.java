@@ -61,6 +61,7 @@ public class Server {
     }
 
     public void tancar() {
+
         try {
             serverSocket.close();
             socket.close();
